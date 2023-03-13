@@ -1,9 +1,16 @@
 body {
-  background-color: lightgray;
+  background-color: rgb(197, 172, 197);
+}
+
+nav.navbar-brand {
+  color: black;
 }
 
 .container {
-  background-color: lightgray;
-  padding: 24px;
+  padding-bottom: 12px;
 }
-/*# sourceMappingURL=style.css.map */
+
+.title {
+  text-decoration: underline;
+  padding-left: 6px;
+}/*# sourceMappingURL=style.css.map */
