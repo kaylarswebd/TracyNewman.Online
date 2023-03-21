@@ -11,6 +11,8 @@ nav.navbar-brand {
 }
 
 .title {
-  text-decoration: underline;
   padding-left: 6px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 1000;
+  font-size: 64px;
 }/*# sourceMappingURL=style.css.map */
