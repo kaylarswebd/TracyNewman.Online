@@ -1,1 +1,44 @@
-body{background-color:#d1d1d1}body p{font-size:20px}nav.navbar-brand{color:#000}#nav{border-radius:15px;box-shadow:10px 10px 10px;margin-bottom:12px}.container{padding:8px}#backg{background-color:rgba(230,188,230,.74);border-radius:15px}.title{padding-left:6px;font-family:"Dancing Script",cursive;font-weight:300;font-size:64px}#social img{height:50px;width:50px}
+body {
+  background-color: rgb(209, 209, 209);
+}
+body p {
+  font-size: 20px;
+}
+
+nav.navbar-brand {
+  color: black;
+}
+
+#nav {
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px;
+  margin-bottom: 12px;
+}
+
+.container {
+  padding: 8px;
+}
+
+#backg { /*background color test*/
+  background-color: rgba(230, 188, 230, 0.74);
+  border-radius: 15px;
+}
+
+.title {
+  padding-left: 6px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 300;
+  font-size: 64px;
+}
+
+#social img {
+  height: 50px;
+  width: 50px;
+}
+
+.wigslist img {
+  max-height: 500px;
+  width: auto;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}/*# sourceMappingURL=style.css.map */
