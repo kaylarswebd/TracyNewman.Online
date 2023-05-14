@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(209, 209, 209);
+  background-color: rgb(0, 0, 0);
 }
 body p {
   font-size: 20px;
@@ -19,9 +19,16 @@ nav.navbar-brand {
   padding: 8px;
 }
 
-#backg { /*background color test*/
-  background-color: rgba(230, 188, 230, 0.74);
+#backg {
+  background-color: hsl(24, 28%, 53%);
   border-radius: 15px;
+  color: rgb(179, 135, 26);
+}
+#backg h1 {
+  text-shadow: 4px 2px 6px rgb(0, 0, 0);
+}
+#backg h2, #backg h3, #backg h4, #backg h5, #backg p {
+  color: black;
 }
 
 .title {
@@ -31,13 +38,22 @@ nav.navbar-brand {
   font-size: 64px;
 }
 
+#safety h1, #safety h2, #safety h3, #safety h4, #safety h5, #safety p {
+  font-size: small;
+  color: white;
+}
+
 #social img {
   height: 50px;
   width: 50px;
 }
 
+#homeform {
+  color: black;
+}
+
 .wigslist img {
-  max-height: 500px;
+  max-height: 400px;
   width: auto;
   -o-object-fit: scale-down;
      object-fit: scale-down;

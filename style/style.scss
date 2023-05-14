@@ -1,9 +1,10 @@
 body {
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(0, 0, 0);
     p {
         font-size: 20px;
     }
 }
+//navigation
 nav.navbar-brand {
     color: black;
 }
@@ -12,13 +13,22 @@ nav.navbar-brand {
     box-shadow: 10px 10px 10px;
     margin-bottom: 12px;
 }
+
+
+//main
 .container {
     padding: 8px;
 }
-#backg {    /*background color test*/
-    background-color: rgba(230, 188, 230, 0.74);
+#backg { 
+    background-color: hsl(24, 28%, 53%);
     border-radius: 15px;
-
+    color: rgb(179, 135, 26);
+    h1 {
+        text-shadow: 4px 2px 6px rgb(0, 0, 0);
+    }
+    h2,h3,h4,h5,p {
+        color: black;
+    }
 }
 .title {
     padding-left: 6px;        
@@ -27,6 +37,17 @@ nav.navbar-brand {
     font-size: 64px;
    
 }
+
+
+//SAFETY
+#safety {
+    h1,h2,h3,h4,h5,p {
+        font-size: small;
+        color: white;
+    }
+    
+}
+//footer
 #social {
     img {
         height: 50px;
@@ -34,11 +55,15 @@ nav.navbar-brand {
     }
 }
 
-//WIGS PAGE
+//home page
+#homeform {
+    color: black;
+}
 
+//WIGS PAGE
 .wigslist {
     img {
-        max-height: 500px;
+        max-height: 400px;
         width: auto;
         object-fit: scale-down;
     }
