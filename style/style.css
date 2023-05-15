@@ -1,9 +1,6 @@
 body {
   background-color: rgb(0, 0, 0);
 }
-body p {
-  font-size: 20px;
-}
 
 nav.navbar-brand {
   color: black;
@@ -16,7 +13,7 @@ nav.navbar-brand {
 }
 
 .container {
-  padding: 8px;
+  padding: 4px;
 }
 
 #backg {
@@ -57,4 +54,22 @@ nav.navbar-brand {
   width: auto;
   -o-object-fit: scale-down;
      object-fit: scale-down;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+  #backg {
+    background-color: hsl(24, 28%, 53%);
+    border-radius: 15px;
+    color: rgb(179, 135, 26);
+  }
+  #backg h1 {
+    text-shadow: 4px 2px 6px rgb(0, 0, 0);
+    font-size: 42px;
+  }
+  #backg h2, #backg h3, #backg h4, #backg h5, #backg p {
+    color: black;
+  }
 }/*# sourceMappingURL=style.css.map */
