@@ -7,45 +7,28 @@ nav.navbar-brand {
 }
 
 #nav {
-  border-radius: 16px;
+  border-radius: 15px;
   box-shadow: 10px 10px 10px;
-  margin-top: 6px;
-  margin-bottom: 12px;
+  padding-bottom: 12px;
 }
 
 #backg {
   background-color: hsl(24, 28%, 53%);
   border-radius: 15px;
-  color: rgb(214, 168, 51);
+  color: rgb(179, 135, 26);
 }
-#backg h1 {
-  text-shadow: 4px 4px 6px rgb(0, 0, 0);
-  font-size: 48px;
-}
-#backg h2,
-#backg h3,
-#backg h4,
-#backg h5,
-#backg p {
+#backg h2, #backg h3, #backg h4, #backg h5, #backg p {
   color: black;
 }
 
 .title {
+  padding-left: 6px;
   font-family: "Dancing Script", cursive;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 64px;
-  margin-top: 8px;
 }
 
-#safety {
-  margin-top: 8px;
-}
-#safety h1,
-#safety h2,
-#safety h3,
-#safety h4,
-#safety h5,
-#safety p {
+#safety h1, #safety h2, #safety h3, #safety h4, #safety h5, #safety p {
   font-size: small;
   color: white;
 }
@@ -62,8 +45,7 @@ nav.navbar-brand {
 .wigslist img {
   max-height: 400px;
   width: auto;
-  -o-object-fit: scale-down;
-     object-fit: scale-down;
+  object-fit: scale-down;
 }
 
 @media screen and (max-width: 480px) {
@@ -71,19 +53,15 @@ nav.navbar-brand {
     background-color: rgb(0, 0, 0);
   }
   #backg {
-    background-color: hsl(23, 38%, 29%);
+    background-color: hsl(24, 28%, 53%);
     border-radius: 15px;
-    color: rgb(218, 171, 54);
+    color: rgb(179, 135, 26);
   }
   #backg h1 {
     text-shadow: 4px 2px 6px rgb(0, 0, 0);
-    font-size: 24px;
+    font-size: 42px;
   }
-  #backg h2,
-  #backg h3,
-  #backg h4,
-  #backg h5,
-  #backg p {
+  #backg h2, #backg h3, #backg h4, #backg h5, #backg p {
     color: black;
   }
-}/*# sourceMappingURL=style.css.map */
+}

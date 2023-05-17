@@ -1,50 +1,64 @@
+//ALLSITES--ALLSITES--ALLSITES--ALLSITES--ALLSITES--
 body {
     background-color: rgb(0, 0, 0);
 
 }
+
 //navigation
 nav.navbar-brand {
     color: black;
 }
+
 #nav {
-    border-radius: 15px;
+    border-radius: 16px;
     box-shadow: 10px 10px 10px;
+    margin-top: 6px;
     margin-bottom: 12px;
 }
 
-
 //main
-.container {
-    padding: 4px;
-}
-#backg { 
+#backg {
     background-color: hsl(24, 28%, 53%);
     border-radius: 15px;
-    color: rgb(179, 135, 26);
+    color: rgb(214, 168, 51);
+
     h1 {
-        text-shadow: 4px 2px 6px rgb(0, 0, 0);
+        text-shadow: 4px 4px 6px rgb(0, 0, 0);
+        font-size: 48px;
     }
-    h2,h3,h4,h5,p {
+
+    h2,
+    h3,
+    h4,
+    h5,
+    p {
         color: black;
     }
 }
-.title {
-    padding-left: 6px;        
-    font-family: 'Dancing Script', cursive;
-    font-weight: 300;
-    font-size: 64px;
-   
-}
 
+.title {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    margin-top: 8px;
+}
 
 //SAFETY
 #safety {
-    h1,h2,h3,h4,h5,p {
+    margin-top: 8px;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    p {
         font-size: small;
         color: white;
     }
-    
+
 }
+
 //footer
 #social {
     img {
@@ -53,12 +67,12 @@ nav.navbar-brand {
     }
 }
 
-//home page
+//INDEXPAGE--INDEXPAGE--INDEXPAGE--INDEXPAGE--INDEXPAGE--INDEXPAGE--
 #homeform {
     color: black;
 }
 
-//WIGS PAGE
+//WIGS PAGE --INDEXPAGE--INDEXPAGE--INDEXPAGE--INDEXPAGE--INDEXPAGE--
 .wigslist {
     img {
         max-height: 400px;
@@ -67,21 +81,28 @@ nav.navbar-brand {
     }
 }
 
+//smaller that 480px smaller that 480px smaller that 480px
 @media screen and (max-width: 480px) {
     body {
-      background-color: rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0);
     }
 
-#backg { 
-    background-color: hsl(24, 28%, 53%);
-    border-radius: 15px;
-    color: rgb(179, 135, 26);
-    h1 {
-        text-shadow: 4px 2px 6px rgb(0, 0, 0);
-        font-size: 42px;
-    }
-    h2,h3,h4,h5,p {
-        color: black;
+    #backg {
+        background-color: hsl(23, 38%, 29%);
+        border-radius: 15px;
+        color: rgb(218, 171, 54);
+
+        h1 {
+            text-shadow: 4px 2px 6px rgb(0, 0, 0);
+            font-size: 24px;
+        }
+
+        h2,
+        h3,
+        h4,
+        h5,
+        p {
+            color: black;
+        }
     }
 }
-  }
