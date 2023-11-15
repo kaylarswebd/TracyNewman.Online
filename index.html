@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>EmpoweRX Home</title>
+  <title>Tracy Newman Beauty</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -13,20 +13,19 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Tilt+Warp&display=swap"
     rel="stylesheet">
-</head>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+</head>
 <body>
 
-  <!--LANDING-->
+<div class="container">
 
 
-  <!--NAVBAR-->
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav" style="background-color: rgb(255, 255, 255) !important; 
-padding: 5px !important; 
-text-shadow: 2px 1px 4px rgb(0, 0, 0) !important;">
+
+  <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">EmpoweRx</a>
+        <a class="navbar-brand" href="index.html">Tracy Newman Beauty</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -34,56 +33,59 @@ text-shadow: 2px 1px 4px rgb(0, 0, 0) !important;">
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="BotAndInjPage.html">Botox & Injections</a>
+              <a class="nav-link active" aria-current="page" href="BotAndInjPage.html">Esthetics</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="beautyAndPiercingsPage.html">Beauty & Piercings</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="wigsPage.html">Wigs</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Wigs
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="wigsPage.html">Order Here</a></li>
+
+                <li><hr class="dropdown-divider"></li>
+
+                <li><a class="dropdown-item" href="https://aderansuk.com/">Aderans</a></li>
+                <li><a class="dropdown-item" href="https://belletress.com/">Belle Tress</a></li>
+                <li><a class="dropdown-item" href="https://www.ellenwille.com/">Ellen Wille</a></li>
+                <li><a class="dropdown-item" href="https://envywigs.com/">Envy</a></li>
+                <li><a class="dropdown-item" href="https://esteticadesigns.com/">Estetica</a></li>
+                <li><a class="dropdown-item" href="https://jonrenau.com/">Jon Renau</a></li>
+                <li><a class="dropdown-item" href="https://tressallure.com/">TressAllure</a></li>
+                <li><a class="dropdown-item" href="https://henrymargu.com/">Henry Margu</a></li>
+              </ul>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+
+<!--banner-->
+  <div class="row">
+    <div class="col">
+      <img src="photos/logos/TNbanner.jpg" class="img-fluid" alt="Responsive image">
+    </div>
   </div>
 
-
-  <!--ABOUTABOUTABOUTABOUTABOUTABOUTABOUTABOUTABOUTABOUTABOUTABOUTABOUTABOUTABOUTABOUTABOUTABOUT-->
-  <div id="backg" class="container">
     <!--about us-->
-    <div class="container">
       <div class="row">
         <div class="col">
-          <h1 class="title">
-            About Empowe<span style="font-family: 'Tilt Warp', cursive;">Rx</span></h1>
+          <h1 class="title">Tracy Newman Beauty</h1>
           <p></p>
         </div>
       </div>
-    </div>
 
     <!--Top treatments-->
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
+      <div data-aos="fade-down" class="row">
+        <div class="col">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Botox & Injections</h5>
+              <h5 class="card-title">Esthetics</h5>
               <p class="card-text"></p>
               <a href="BotAndInjPage.html" class="btn btn-primary">Go to Page</a>
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Beauty and Piercings</h5>
-              <p class="card-text"></p>
-              <a href="beautyAndPiercingsPage.html" class="btn btn-primary">Go to Page</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
+        <div class="col">
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Wigs</h5>
@@ -93,12 +95,9 @@ text-shadow: 2px 1px 4px rgb(0, 0, 0) !important;">
           </div>
         </div>
       </div>
-    </div>
 
-<div class="container">
     <!--location-->
-    <div class="container">
-      <div class="row">
+      <div data-aos="fade-down" class="row">
         <div class="col">
           <h1>Location</h1>
           <iframe style="width: 100%; height: 400px;"
@@ -107,16 +106,17 @@ text-shadow: 2px 1px 4px rgb(0, 0, 0) !important;">
             referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
-    </div>
+
+</div> <!--main container-->
+
 
     <!--feedback-->
-    <div class="container" id="homeform">
+    <div data-aos="fade-down" class="container" id="homeform">
       <section class="mb-4">
         <div class="row">
           <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
           <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.</p>
         </div>
-
         <div class="row">
           <div class="col-md-9 mb-md-0 mb-5">
             <form id="contact-form" name="contact-form" action="mail.php" method="POST">
@@ -175,8 +175,9 @@ text-shadow: 2px 1px 4px rgb(0, 0, 0) !important;">
         </div>
       </section>
     </div>
+
 </div>
-</div>
+
   <!--safety-->
   <div class="container">
     <div class="row" id="safety">
@@ -192,7 +193,7 @@ text-shadow: 2px 1px 4px rgb(0, 0, 0) !important;">
 
   
   <!-- Footer -->
-  <footer class="text-center text-lg-start bg-light text-muted">
+  <footer data-aos="fade-down" class="text-center text-lg-start bg-light text-muted">
     <!-- Section: Social media -->
     <div class="row"></div>
     <!-- Section: Links  -->
@@ -208,19 +209,19 @@ text-shadow: 2px 1px 4px rgb(0, 0, 0) !important;">
             </h6>
             <p>
               <a href="#!" class="text-reset"><img src="photos/logos/5296516_tweet_twitter_twitter logo_icon.svg" alt=""
-                  style="height: 50px; width: 50px;"></a>
+                  ></a>
             </p>
             <p>
               <a href="#!" class="text-reset"><img src="photos/logos/5296765_camera_instagram_instagram logo_icon.png"
-                  alt="" style="height: 50px; width: 50px;"></a>
+                  alt=""></a>
             </p>
             <p>
               <a href="#!" class="text-reset"><img src="photos/logos/5365678_fb_facebook_facebook logo_icon.png" alt=""
-                  style="height: 50px; width: 50px;"></a>
+                  ></a>
             </p>
             <p>
               <a href="#!" class="text-reset"><img src="photos/logos/5296501_linkedin_network_linkedin logo_icon.png"
-                  alt="" style="height: 50px; width: 50px;"></a>
+                  alt=""></a>
             </p>
           </div>
           <!-- Grid column -->
@@ -300,6 +301,10 @@ text-shadow: 2px 1px 4px rgb(0, 0, 0) !important;">
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init(9500);
   </script>
 
 </body>
