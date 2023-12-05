@@ -2,9 +2,13 @@
     font-style: italic;
 }
 
-.wigslist {
-    img {
-        padding: 12px;
+.wigLogos {
+    a {
+        margin: 6px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
     }
 }
 
@@ -13,17 +17,10 @@
     img {
         height: 50px;
         width: 50px;
+        text-align: center;
     }
 }
 
-//WIGS PAGE --INDEXPAGE--INDEXPAGE--INDEXPAGE--INDEXPAGE--INDEXPAGE--
-.wigslist {
-    img {
-        max-height: 400px;
-        width: auto;
-        object-fit: scale-down;
-    }
-}
 
 //smaller that 480px smaller that 480px smaller that 480px
 @media screen and (max-width: 480px) {
