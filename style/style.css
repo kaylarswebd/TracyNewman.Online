@@ -36,7 +36,7 @@ body p, body h1, body h2, body h3, body h4, body h5 {
 
 @media screen and (max-width: 480px) {
   body {
-    background-color: rgb(240, 240, 240);
+    background-color: #d396ed;
   }
   body p, body h1, body h2, body h3, body h4, body h5 {
     padding: 6px;
