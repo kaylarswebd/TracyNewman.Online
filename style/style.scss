@@ -1,5 +1,23 @@
+body {
+    background-color: #d396ed;
+    p,h1,h2,h3,h4,h5 {
+        padding: 12px;
+    }
+}
+
 #nav {
     font-style: italic;
+}
+
+#frontlinks {
+    text-align: center;
+}
+
+.col {
+    background-color: #d396ed;
+    #etitle {
+        color: #5d147c;
+    }
 }
 
 .wigLogos {
@@ -24,5 +42,12 @@
 
 //smaller that 480px smaller that 480px smaller that 480px
 @media screen and (max-width: 480px) {
+    body {
+        background-color: rgb(240, 240, 240);
+        p,h1,h2,h3,h4,h5 {
+            padding: 6px;
+            text-align: center;
+        }
+    }
 
 }
