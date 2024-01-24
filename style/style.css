@@ -28,6 +28,12 @@ body p, body h1, body h2, body h3, body h4, body h5 {
   text-align: center;
 }
 
+.carousel, img {
+  height: 500px;
+  width: auto;
+  text-align: center;
+}
+
 #social img {
   height: 50px;
   width: 50px;
