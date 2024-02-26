@@ -2,7 +2,7 @@ body {
   background-color: #d396ed;
 }
 body p, body h1, body h2, body h3, body h4, body h5 {
-  padding: 12px;
+  padding: 6px;
 }
 
 #nav {
@@ -16,16 +16,29 @@ body p, body h1, body h2, body h3, body h4, body h5 {
 .col {
   background-color: #d396ed;
 }
-.col #etitle {
-  color: #5d147c;
+
+#esthImg {
+  border-radius: 25%;
+  padding: 6px;
 }
 
 .wigLogos a {
-  margin: 6px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+.order {
+  text-align: center;
+}
+.order a {
+  padding: 6px;
+}
+.order a img {
+  width: 50%;
+  height: auto;
+  padding: 6px;
 }
 
 .carousel, img {
