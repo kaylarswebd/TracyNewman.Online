@@ -1,40 +1,49 @@
 body {
-    background-color: #d396ed;
+    color: #ffe8a7;
+    background-color: #15ddd8;
     p,h1,h2,h3,h4,h5 {
-        padding: 6px;
+        font-family: "Poppins", sans-serif;
     }
+    p {
+        font-weight: 400;
+    }
+
+#banner {
+    height: 500px;
+    width: 100%;
 }
 
-#nav {
-    font-style: italic;
 }
 
 #frontlinks {
     text-align: center;
 }
 
-//esthetics page
 .col {
-    background-color: #d396ed;
+    background-color: #2f91ae;
 }
 
 #esthImg {
-    border-radius: 25%;
+    border-radius: 50%;
     padding: 6px;
+    text-align: center;
 }
 
 //wig page
-.wigLogos {
-    a {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
+.wigBtn {
+    text-align: center;
+    .col {
+        a {
+            padding: 30px;
+            padding-left: 50px;
+            padding-right: 50px;
+            margin: 6px;
+        }
     }
 }
 
-.order { text-align: center;
 
+.order { text-align: center;
     a {
         padding: 6px;
         img {
@@ -45,10 +54,13 @@ body {
     }
 }
 
-.carousel, img {
+.carousel{
+     img {
+    padding: 6px;
     height: 500px;
     width: auto;
     text-align: center;
+}
 }
 
 //footer
@@ -63,12 +75,13 @@ body {
 
 //smaller that 480px smaller that 480px smaller that 480px
 @media screen and (max-width: 480px) {
-    body {
-        background-color: #d396ed;
-        p,h1,h2,h3,h4,h5 {
-            padding: 6px;
-            text-align: center;
-        }
+
+    #banner {
+        height: 300px;
+        width: 100%;
+    }
+    #esthImg, #none {
+        display: none;
     }
 
 }

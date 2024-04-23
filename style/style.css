@@ -1,12 +1,16 @@
 body {
-  background-color: #d396ed;
+  color: #ffe8a7;
+  background-color: #15ddd8;
 }
 body p, body h1, body h2, body h3, body h4, body h5 {
-  padding: 6px;
+  font-family: "Poppins", sans-serif;
 }
-
-#nav {
-  font-style: italic;
+body p {
+  font-weight: 400;
+}
+body #banner {
+  height: 500px;
+  width: 100%;
 }
 
 #frontlinks {
@@ -14,19 +18,23 @@ body p, body h1, body h2, body h3, body h4, body h5 {
 }
 
 .col {
-  background-color: #d396ed;
+  background-color: #2f91ae;
 }
 
 #esthImg {
-  border-radius: 25%;
+  border-radius: 50%;
   padding: 6px;
+  text-align: center;
 }
 
-.wigLogos a {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.wigBtn {
   text-align: center;
+}
+.wigBtn .col a {
+  padding: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 6px;
 }
 
 .order {
@@ -41,7 +49,8 @@ body p, body h1, body h2, body h3, body h4, body h5 {
   padding: 6px;
 }
 
-.carousel, img {
+.carousel img {
+  padding: 6px;
   height: 500px;
   width: auto;
   text-align: center;
@@ -54,11 +63,11 @@ body p, body h1, body h2, body h3, body h4, body h5 {
 }
 
 @media screen and (max-width: 480px) {
-  body {
-    background-color: #d396ed;
+  #banner {
+    height: 300px;
+    width: 100%;
   }
-  body p, body h1, body h2, body h3, body h4, body h5 {
-    padding: 6px;
-    text-align: center;
+  #esthImg, #none {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
