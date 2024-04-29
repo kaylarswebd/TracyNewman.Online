@@ -1,11 +1,13 @@
 body {
-    color: #ffe8a7;
-    background-color: #15ddd8;
-    p,h1,h2,h3,h4,h5 {
+    
+    background-color: #c5fffe;
+    h1,h2,h3,h4,h5 {
         font-family: "Poppins", sans-serif;
+        color: #ffe8a7;
     }
-    p {
+    p, li {
         font-weight: 400;
+        color: white;
     }
 
 #banner {
@@ -33,28 +35,34 @@ body {
 .wigBtn {
     text-align: center;
     .col {
-        a {
+        a, .orderBtn {
             padding: 30px;
             padding-left: 50px;
             padding-right: 50px;
+            width: 250px;
             margin: 6px;
+            font-family: "Alex Brush", cursive !important;
         }
     }
 }
 
-
-.order { text-align: center;
+#order {
+    text-align: center;
     a {
-        padding: 6px;
-        img {
-            width: 50%;
-            height: auto;
-            padding: 6px;
-        }
+        padding: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 250px;
+        margin: 6px;
+        font-family: "Alex Brush", cursive !important;
     }
 }
 
-.carousel{
+#gal {
+    text-align: center;
+}
+
+.carousel {
      img {
     padding: 6px;
     height: 500px;
@@ -64,6 +72,10 @@ body {
 }
 
 //footer
+footer {
+    background-color: #2f91ae;
+}
+
 #social {
     img {
         height: 50px;
