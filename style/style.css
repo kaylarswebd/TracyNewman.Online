@@ -2,8 +2,8 @@ body {
   background-color: #c5fffe;
 }
 body h1, body h2, body h3, body h4, body h5 {
-  font-family: "Poppins", sans-serif;
   color: #ffe8a7;
+  font-family: "Briem Hand", cursive;
 }
 body p, body li {
   font-weight: 400;
@@ -31,7 +31,7 @@ body #banner {
 .wigBtn {
   text-align: center;
 }
-.wigBtn .col a, .wigBtn .col .orderBtn {
+.wigBtn .col a {
   padding: 30px;
   padding-left: 50px;
   padding-right: 50px;
@@ -66,6 +66,9 @@ body #banner {
 footer {
   background-color: #2f91ae;
 }
+footer li, footer a, footer p {
+  color: black;
+}
 
 #social img {
   height: 50px;
@@ -75,7 +78,7 @@ footer {
 
 @media screen and (max-width: 480px) {
   #banner {
-    height: 300px;
+    height: 200px;
     width: 100%;
   }
   #esthImg, #none {
