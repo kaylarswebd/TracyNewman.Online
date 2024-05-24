@@ -1,6 +1,6 @@
 body {
     
-    background-color: #c5fffe;
+    background-color: #8be0fa;
     h1,h2,h3,h4,h5 {
         color: #ffe8a7;
         font-family: "Briem Hand", cursive;
@@ -11,8 +11,9 @@ body {
     }
 
 #banner {
-    height: 500px;
+    height: 550px;
     width: 100%;
+    border-radius: 10px;
 }
 
 }
@@ -23,6 +24,7 @@ body {
 
 .col {
     background-color: #2f91ae;
+    padding: 12px;
 }
 
 #esthImg {
@@ -91,7 +93,7 @@ footer {
 //smaller that 480px smaller that 480px smaller that 480px
 @media screen and (max-width: 480px) {
     #banner {
-        height: 200px;
+        height: 100px;
         width: 100%;
     }
     #esthImg, #none {
