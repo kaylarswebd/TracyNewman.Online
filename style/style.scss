@@ -11,7 +11,7 @@ body {
     }
 
 #banner {
-    height: 550px;
+    height: 300px;
     width: 100%;
     border-radius: 10px;
 }
@@ -92,11 +92,11 @@ footer {
 
 //smaller that 480px smaller that 480px smaller that 480px
 @media screen and (max-width: 480px) {
+    #esthImg, #none {
+        display: none;
+    }
     #banner {
         height: 100px;
-        width: 100%;
-    }
-    #esthImg, #none {
         display: none;
     }
 
